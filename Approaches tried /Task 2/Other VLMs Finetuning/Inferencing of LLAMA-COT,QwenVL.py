@@ -42,8 +42,6 @@ model, tokenizer = FastVisionModel.from_pretrained(
 )
 
 
-# instruction = "You are an expert radiographer. Describe accurately what you see in this image."
-
 system_message = """
   Analyse the given AI-generated image for artifacts and report their exact locations in the image. 
   The image may have more than one artifact. Return all of them, carefully making sure that the perceived artifacts 
