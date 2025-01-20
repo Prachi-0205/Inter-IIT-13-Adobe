@@ -1,0 +1,17 @@
+pandas
+transformers
+diffusers
+timm
+huggingface-hub
+unsloth
+matplotlib
+scikit-learn
+scikit-image
+wandb
+xformers==0.0.24
+accelerate
+#stable_fast-1.0.4+torch220cu121-cp310-cp310-manylinux2014_x86_64.whl
+sentencepiece
+ftfy
+torchinfo
+pywavelets
